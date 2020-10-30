@@ -1,3 +1,8 @@
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300,400;500&display=swap");
 * {
   box-sizing: border-box;
@@ -720,3 +725,36 @@ input:focus {
   color: aliceblue;
   padding-top: 2px;
 }
+
+.footer{
+  width: 100%;
+  position: static;
+  height: 167px;
+  margin-top: 0;
+  padding-top: 30px
+}
+
+
+
+
+@media only screen and (max-width: 720px){
+  body{
+    height: 0%;
+}
+  .footer{
+    padding-top: 170px;
+  }
+  }
+
+
+@media only screen and (max-width: 425px){
+  .intro{font-size: 8px;
+  }
+  .main-card-container{
+    margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  }
+}
+
